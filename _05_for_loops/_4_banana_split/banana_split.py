@@ -16,7 +16,10 @@ root = tk.Tk()
 
 canvas = tk.Canvas(root, width=200, height=200, bg="#FF00FF");
 canvas.grid()
-
+canvas.create_text(100, 50, text="ice cream", font=("Arial", 16))
+canvas.create_text(100, 75, text="ice cream", font=("Arial", 16))
+canvas.create_text(100, 100, text="ice cream", font=("Arial", 16))
+canvas.create_text(100, 125, text="banana", font=("Arial", 16))
 '''
 Text Rendering Example:
                     x    y                                                       
